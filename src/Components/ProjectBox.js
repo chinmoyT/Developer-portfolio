@@ -21,7 +21,7 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
     CSVImporterGithub: "https://github.com/chinmoyT/CSV-Importer",
     CSVImporterWebsite:"",
 
-    SpotifyBackendDesc:"Created REST API and all services created keeping in mind the ",
+    SpotifyBackendDesc:"Created REST API and all services keeping in mind the backend of a music streaming platform.",
     SpotifyBackendGithub: "https://github.com/chinmoyT/Spotify-backend",
     SpotifyBackendWebsite:""
     
