@@ -7,7 +7,6 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
   const desc = {
     NewsXDesc : "A website that fetches the news API and shows news. I allows different categories of news like sports, business, political.",
     NewsXGithub : "https://github.com/chinmoyT/News-Website",
-    NewXWebsite : "",
 
     BookMyMovieDesc : "A website to book movies. It has an user login to book movies of their choices. And a admin login to add new movies and confirm the bookings done by the user.",
     BookMyMovieGithub : "https://github.com/chinmoyT/BookMyMovie",
@@ -23,7 +22,11 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
 
     SpotifyBackendDesc:"Created REST API and all services keeping in mind the backend of a music streaming platform.",
     SpotifyBackendGithub: "https://github.com/chinmoyT/Spotify-backend",
-    SpotifyBackendWebsite:""
+    SpotifyBackendWebsite:"",
+
+    TextBotDesc: "A powerful AI assistant, built on Google AI's innovative Gemini technology, stands ready to assist you.  Simply pose your questions, and receive informative answers within seconds.",
+    TextBotGithub: "https://github.com/chinmoyT/TexttBot",
+    TextBotWebsite: "https://textt-bot.vercel.app/"
     
   }
 
