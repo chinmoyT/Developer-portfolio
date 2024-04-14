@@ -5,6 +5,7 @@ import crypto from '../images/crypto.PNG'
 import book from '../images/bookmymovie.PNG'
 import CSVImporter from '../images/csv.png'
 import newsx from '../images/newsx.PNG'
+import TextBot from '../images/newsx.PNG'
 
 const Projects = () => {
   return (
@@ -16,6 +17,7 @@ const Projects = () => {
         <ProjectBox projectPhoto={CSVImporter} projectName="CSVImporter" />
         <ProjectBox projectPhoto={newsx} projectName="NewsX" />
         <ProjectBox projectPhoto={Spotify} projectName="SpotifyBackend" />
+        <ProjectBox projectPhoto={TextBot} projectName="TextBot" />
       </div>
 
     </div>
