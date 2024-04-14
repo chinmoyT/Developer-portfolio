@@ -5,7 +5,7 @@ import crypto from '../images/crypto.PNG'
 import book from '../images/bookmymovie.PNG'
 import CSVImporter from '../images/csv.png'
 import newsx from '../images/newsx.PNG'
-import TextBot from '../images/newsx.PNG'
+import TextBot from '../images/Screenshot.PNG'
 
 const Projects = () => {
   return (
