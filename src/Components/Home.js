@@ -1,6 +1,7 @@
 import React from 'react';
 import Lottie from  "lottie-react";
 import HappyHacker from '../LottieFiles/happy-hacker.json'
+import Profile from '../images/profile.png'
 import Typed from "./Typed.js";
 import Tilt from 'react-parallax-tilt';
 import Avatar from '../images/cartoon.png'
@@ -16,10 +17,20 @@ const Home = () => {
           <Typed/>   
         </div>
 
-        <Lottie 
+        {/* <Lottie 
           className="illustration" 
           animationData={HappyHacker} 
           loop={true} 
+        /> */}
+        <img 
+          className="illustration" 
+          src={Profile} 
+          alt="My profile picture" 
+          style={{
+            borderRadius: '50%',
+            // border: '2px solid rgba(255, 255, 255, 0.5)',
+            boxShadow: '0 0 15px rgba(0, 0, 0, 0.2), 0 0 20px 10px rgba(0, 0, 0, 0.5) inset'
+          }}
         />
         
       </div>

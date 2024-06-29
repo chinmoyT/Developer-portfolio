@@ -1,9 +1,11 @@
 import React from 'react'; 
-import {FaReact, FaGitAlt, FaGithub, FaNpm, FaFigma, FaBootstrap} from "react-icons/fa";
+import {FaReact, FaGitAlt, FaGithub,  FaFigma, FaBootstrap} from "react-icons/fa";
 import {DiNodejs, DiJavascript1} from "react-icons/di";
-import {SiExpress, SiMongodb, SiVercel, SiTypescript} from "react-icons/si";
+import {SiExpress, SiMongodb, SiTypescript} from "react-icons/si";
 import { FaJava } from 'react-icons/fa';
 import { AiFillHtml5 } from 'react-icons/ai';
+import { FaAws } from "react-icons/fa";
+import { DiMysql } from "react-icons/di";
 
 
 const Skills = ({skill}) => {
@@ -16,12 +18,12 @@ const Skills = ({skill}) => {
         MongoDb : <SiMongodb/>,
         Git : <FaGitAlt/>,
         Github : <FaGithub/>,
-        Npm : <FaNpm/>,
         Figma : <FaFigma/>,
         Bootstrap: <FaBootstrap/>,
-        Vercel : <SiVercel/>,
+        SQL : <DiMysql/>,
         Java: <FaJava />,
-        TypeScript: <SiTypescript />
+        TypeScript: <SiTypescript />,
+        AWS: <FaAws />
     }
     
   return (
