@@ -7,6 +7,7 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
   const desc = {
     NewsXDesc : "A website that fetches the news API and shows news. I allows different categories of news like sports, business, political.",
     NewsXGithub : "https://github.com/chinmoyT/News-Website",
+    NewsXWebsite: "",
 
     BookMyMovieDesc : "A website to book movies. It has an user login to book movies of their choices. And a admin login to add new movies and confirm the bookings done by the user.",
     BookMyMovieGithub : "https://github.com/chinmoyT/BookMyMovie",
