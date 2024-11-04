@@ -10,7 +10,7 @@ const Footer = () => {
       <div className='footerLinks'>
         <a href="https://github.com/chinmoyT" target='_blank'><FaGithub/></a>
         <a href="https://www.linkedin.com/in/chinmoy-thakuria/" target='_blank'><FaLinkedin/></a>
-        <a href="mailto:cythakuria@gmail.com" target='_blank'><GrMail/></a>
+        <a href="mailto:chinmoythakuria20@gmail.com" rel="noopener noreferrer"><GrMail/></a>
         <a href="https://leetcode.com/chinmoy201/" target="_blank"><SiLeetcode/></a>
       </div>
     </footer>

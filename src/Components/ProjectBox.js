@@ -11,7 +11,7 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
 
     BookMyMovieDesc : "A website to book movies. It has an user login to book movies of their choices. And a admin login to add new movies and confirm the bookings done by the user.",
     BookMyMovieGithub : "https://github.com/chinmoyT/BookMyMovie",
-    BookMyMovieWebsite : "https://mern-stack-frontend-pi.vercel.app/",
+    BookMyMovieWebsite : "https://book-my-movie-frontend.vercel.app/",
 
     CryptoExchangeDesc:"A comprehensive crypto exchange platform that shows the realtime analaysis of 50+ crypto coins.",
     CryptoExchangeGithub:"https://github.com/chinmoyT/CoinExchange",
