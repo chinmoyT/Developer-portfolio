@@ -15,8 +15,6 @@ const Projects = () => {
         <ProjectBox projectPhoto={crypto} projectName="CryptoExchange" />
         <ProjectBox projectPhoto={book} projectName="BookMyMovie" />
         <ProjectBox projectPhoto={CSVImporter} projectName="CSVImporter" />
-        <ProjectBox projectPhoto={newsx} projectName="NewsX" />
-        <ProjectBox projectPhoto={Spotify} projectName="SpotifyBackend" />
         <ProjectBox projectPhoto={TextBot} projectName="TextBot" />
       </div>
 
